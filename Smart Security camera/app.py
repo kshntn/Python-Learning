@@ -3,10 +3,10 @@ import numpy as np
 from twilio.rest import Client
 from skimage.measure import compare_ssim 
 
-ACCOUNT_SID ='AC488912de0f534629d2f3d6a1e382791b'
-AUTH_TOKEN='ae825734c257d9e7b113443d661b6d81'
-TWILIO_PHONE='2244123646 '
-RECEIVER_PHONE='+4917636205851'
+ACCOUNT_SID ='xxxxxxxxxxxxxxxxxxxxxxx'
+AUTH_TOKEN='xxxxxxxxxxxxxxxxxxxxxxxxx'
+TWILIO_PHONE='xxxxxxxxxxxx '
+RECEIVER_PHONE='+xxxxxxxx'
 
 def ssim(A,B):
 	return compare_ssim(A,B,data_range=A.max()-A.min())
