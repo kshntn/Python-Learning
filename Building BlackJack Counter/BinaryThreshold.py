@@ -1,6 +1,6 @@
 import cv2
 
-img1= cv2.imread('contours.png',0)	# converts to greyscale
+img1= cv2.imread('wallet2.jpg',0)	# converts to greyscale
 img2=cv2.imread('example.jpg',0)
 
 
