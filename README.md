@@ -5,3 +5,6 @@
 
 2> Smart Security camera using OpenCV and Numpy and skimage
 	used	Structural similarity and video processing and twilio api for text notification of an intruder
+
+3> BlackJack Counter using OpenCV
+	used	Thresholding(Binary Thresholding, Inverted Binary Thresholding) and Counter Detection(Curve Approximation, Contour Hierarchy and Polygon Approximation
