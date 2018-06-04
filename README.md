@@ -8,3 +8,6 @@
 
 3> BlackJack Counter using OpenCV
 	used	Thresholding(Binary Thresholding, Inverted Binary Thresholding) and Counter Detection(Curve Approximation, Contour Hierarchy and Polygon Approximation
+
+4> Preliminary face swapping app using OpenCV
+	using Cascade Classifier and learnt Haarfeatures, Adaboost, Cascade of Classifiers and Image Slicing
