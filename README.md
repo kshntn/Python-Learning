@@ -12,5 +12,5 @@
 4> Preliminary face swapping app using OpenCV
 	using Cascade Classifier and learnt Haarfeatures, Adaboost, Cascade of Classifiers and Image Slicing
 
-5> Face recognition 
-	using (Principal Components Analysis) for Eigenfaces,(Linear discriminant Analysis) for Fisherfaces, Local Binary Patterns and Yale Face Database. Learnt concept of Dimensionality reduction
+5> Face recognition using Dimensionality reduction
+	using (Principal Components Analysis) for Eigenfaces,(Linear discriminant Analysis) for Fisherfaces, Local Binary Patterns and Yale Face Database.
