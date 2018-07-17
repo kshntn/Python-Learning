@@ -14,3 +14,5 @@
 
 5> Face recognition using Dimensionality reduction
 	using (Principal Components Analysis) for Eigenfaces,(Linear discriminant Analysis) for Fisherfaces, Local Binary Patterns and Yale Face Database.
+
+6> Smart Speed Camera using Optical Flow
