@@ -16,3 +16,12 @@
 	using (Principal Components Analysis) for Eigenfaces,(Linear discriminant Analysis) for Fisherfaces, Local Binary Patterns and Yale Face Database.
 
 6> Smart Speed Camera using Optical Flow
+
+7> Image classification using nearest neighbour classifier
+	used k nearest neighbours classifier and CIFAR-10 Image classification Dataset
+
+8> Data Visualization techniques
+	bar chart,lineplot,scatterplot. Quiver plot,3D line and surface plots
+
+9> Text classification-Spam detection
+	used Enron dataset, Naive Bayes, TfIdf

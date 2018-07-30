@@ -5,7 +5,7 @@ MAX_NUM_CORNERS = 100
 PX_PER_CM = 370
 FPS = 30
 DISTANCE_THRESHOLD = 10
-REFRESH_RATE=20
+REFRESH_RATE = 20
 
 
 def d2(p, q):
@@ -15,7 +15,7 @@ def d2(p, q):
 
 
 colors = np.random.randint(0, 255, (MAX_NUM_CORNERS, 3))
-frame_counter=0
+frame_counter = 0
 
 video = cv2.VideoCapture('test.mov')  # 0,1,2 webcam
 _, old_frame = video.read()
@@ -33,9 +33,9 @@ cv2.waitKey(0)
 """
 
 mask = np.zeros_like(old_frame)
-mask_text=np.zeros_like(old_frame)
+mask_text = np.zeros_like(old_frame)
 while True:
-    if frame_counter%REFRESH_RATE==0:
+    if frame_counter % REFRESH_RATE == 0:
         mask_text.fill(0)
 
     _, frame = video.read()
@@ -68,7 +68,7 @@ while True:
             cv2.putText(mask_text, speed_str, (x, y), cv2.FONT_HERSHEY_TRIPLEX, .5, list(colors[i]))
 
     frame_final = cv2.add(frame, mask)
-    frame_final=cv2.add(frame_final,mask_text)
+    frame_final = cv2.add(frame_final, mask_text)
     cv2.imshow('frame', frame_final)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
