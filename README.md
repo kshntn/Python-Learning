@@ -25,3 +25,6 @@
 
 9> Text classification-Spam detection
 	used Enron dataset, Naive Bayes, TfIdf
+
+10>Handwriting Recognition
+	using Neural networks,Gradient Descent,Backpropagation,Tensorflow and Tensoroard
