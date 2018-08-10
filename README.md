@@ -29,5 +29,6 @@
 10>Handwriting Recognition
 	using Neural networks,Gradient Descent,Backpropagation,Tensorflow and Tensoroard
 
-11>Convolutional neural Networks based on Lenet-5 architecture
-	
+11>Convolutional neural Networks based on Lenet-5 architecture using TensorFlow
+
+12>Perceptron and Deep neural networks using Tensorflow and TensorBoard
